@@ -17,12 +17,13 @@ int bingo_card()
 
     // Draw the top border
     std::cout << corner;
-    for (int j=0; j<grid_width; j++){
-        for (int k=0; k<tile_width; k++){
+    for (int j = 0; j < grid_width; j++)
+    {
+        for (int k = 0; k < tile_width; k++)
+        {
             std::cout << horizontal;
         }
     }
     std::cout << corner;
     std::cout << std::endl;
-    
 }
