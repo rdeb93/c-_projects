@@ -1,7 +1,7 @@
 #include <iostream>
 #include <random>
 
-int bingo_card()
+int main()
 {
     // Define the number of tiles in the bingo card.
     const int grid_width = 9;
