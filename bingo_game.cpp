@@ -26,4 +26,6 @@ int main()
     }
     std::cout << corner;
     std::cout << std::endl;
+
+    return 0;
 }
